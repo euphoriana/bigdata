@@ -7,9 +7,9 @@
       </el-aside>
       <el-container>
         <!-- 顶部组件 -->
-        <el-header>
+        <!-- <el-header>
           <common-header></common-header>
-        </el-header>
+        </el-header> -->
         <!-- 首页组件 -->
         <el-main>
           <router-view></router-view>
@@ -21,13 +21,13 @@
  
 <script>
 import CommonAside from "./components/CommonAside.vue";
-import CommonHeader from "./components/CommonHeader.vue";
+// import CommonHeader from "./components/CommonHeader.vue";
  
 export default {
   name: "App",
   components: {
     CommonAside,
-    CommonHeader,
+    // CommonHeader,
   },
   mounted(){
     console.log(this)

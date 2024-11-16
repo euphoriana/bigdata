@@ -44,15 +44,15 @@ export default {
           url: 'Home/Home'
         },
         {
-          path: '/mall',
-          name: 'mall',
+          path: '/view1',
+          name: 'view1',
           label: '页面1',
           icon: 'video-play',
           url: 'MallManage/MallManage'
         },
         {
-          path: '/user',
-          name: 'user',
+          path: '/view2',
+          name: 'view2',
           label: '页面2',
           icon: 'user',
           url: 'UserManage/UserManage'
